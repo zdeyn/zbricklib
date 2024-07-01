@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "zbricklib"
+version = "0.1.0"
+description = "Base classes for building Flask applications and extensions. Part of The zBricks Project."
+authors = ["zdeyn <zdeyn@zdeyn.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+pytest-mock = "^3.14.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
